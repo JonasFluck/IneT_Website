@@ -220,7 +220,8 @@ float: right;
   border-style: hidden;
   height: 400px;
   width: 730px;
-  margin-right: 15%;
+  margin-right: 13%;
+  margin-bottom: 30px;
   }
   .btn-info{
   visibility: hidden;
