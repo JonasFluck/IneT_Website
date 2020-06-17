@@ -199,8 +199,8 @@ color:#4CAF50 ;
 .btn-info{
   
  border-radius: 30px;
-  margin-top: 80%;
-  margin-right: -110%;
+  margin-top: -15%;
+  margin-right: 12%;
 float: right;
 }
 .Yvideo{
@@ -211,7 +211,7 @@ float: right;
   float: right;
   margin-right: 5%;
   padding-left: 10px;
-  margin-top: 5%;
+  margin-top: -40%;
 }
 /*CSS File for Contact formula*/
 .cover-heading{
