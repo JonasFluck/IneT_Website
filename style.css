@@ -213,7 +213,7 @@ float: right;
   padding-left: 10px;
   margin-top: -40%;
 }
-@media(min-width:480px){
+@media(max-width:768px){
   .Yvideo{
     margin-top: 5%;
     border-radius: 30px;
