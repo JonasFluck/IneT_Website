@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <meta name="WEB" content="width=device-width, initial-scale=1">
+
+ 
+</head>
+
+
+<body>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <div class="topnav" id="myTopnav">
+    <div class="logo">
+      <img src="Crap2.png" height="65px" width="100px">
+    </div>
+    <a href="index.html">Home</a>
+    <a href="Kalender.html">Kalender</a>
+    <a href="Karte.html">Karte</a>
+    <a href="Kontakt.html" class="active">Kontakt</a>
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
+  <div class="abstand">
+    <h1>Haben Sie Fragen ?</h1>
+    <div class="container">
+      <form action="action_page.php">
+
+        <label for="fname">Vorname</label>
+        <input type="text" id="fname" name="Vorname" placeholder="Vorname..">
+
+        <label for="lname">Nachname</label>
+        <input type="text" id="lname" name="Nachname" placeholder="Nachname..">
+
+        <label for="country">Land</label>
+        <select id="country" name="Land">
+          <option value="australia">Deutschland</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+
+        <label for="subject">Ergänzungen</label>
+        <textarea id="subject" name="subject" placeholder="Schreiben Sie uns doch etwas.." style="height:200px"></textarea>
+
+        <a type="button" class="btn btn-outline-success" href="weiterleitung.html">Abschicken</a>
+      </form>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</body>
