@@ -213,6 +213,34 @@ float: right;
   padding-left: 10px;
   margin-top: -40%;
 }
+@media(max-width:599px){
+  .Yvideo{
+    border-radius: 30px;
+  border-style: hidden;
+  height: 400px;
+  width: 730px;
+  
+  }
+  .btn-info{
+  
+    border-radius: 30px;
+  }
+  .Info-rounded{
+    background-color:#636060;
+margin-top: 100px;
+margin-bottom: 150px;
+margin-left: 10%;
+margin-right: 10%; 
+border-radius: 30px;
+border-style: solid;
+border-width: 5px;
+border-color: #4CAF50;
+padding: 35px;
+padding-top: 50px;
+
+  }
+  
+}
 /*CSS File for Contact formula*/
 .cover-heading{
   margin-top: 20px;
