@@ -215,6 +215,7 @@ float: right;
 }
 @media(max-width:300px){
   .Yvideo{
+    margin-top: 5%;
     border-radius: 30px;
   border-style: hidden;
   height: 400px;
@@ -238,6 +239,11 @@ border-color: #4CAF50;
 padding: 35px;
 padding-top: 50px;
 
+  }
+  .Infotext{
+    margin-top: 30px;
+  
+    
   }
   
 }
