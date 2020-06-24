@@ -288,6 +288,10 @@ margin-top: 40px;
 }
 
 /*Style for Map page*/
+.inhalt-karte{
+  margin-left: 10%;
+  margin-right: 10%;
+}
 #mapid { 
   height: 700px;
 width: 60%; }
