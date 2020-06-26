@@ -358,12 +358,32 @@ input[type=submit]:hover {
 
 /*Style for Map page*/
 
-.inhalt-karte {
-  margin: auto;
-}
 
 #mapid {
   margin: auto;
   height: 700px;
   width: 60%;
+}
+
+.bilder-beschreibung-karte{
+  
+  
+}
+
+.bilder-beschreibung-karte-scaling{
+  margin-bottom: 80px;
+  
+}
+.bild{
+  float: left;
+  margin-left: 20%;
+  height: 100px;
+  margin-top: -20px;
+  
+}
+
+.text1{
+  text-align: left;
+  margin-top: 40px;
+  
 }
