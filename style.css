@@ -361,14 +361,12 @@ input[type=submit]:hover {
 
 #mapid {
   margin: auto;
+  margin-top: 20px;
   height: 700px;
   width: 60%;
 }
 
-.bilder-beschreibung-karte{
-  
-  
-}
+
 
 .bilder-beschreibung-karte-scaling{
   margin-bottom: 80px;
