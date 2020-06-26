@@ -336,7 +336,11 @@ input[type=submit]:hover {
   margin-right: 30%;
   margin-bottom: 20%;
 }
-
+@media screen and (max-device-width:480px) {
+  .pollenkalender-bild{
+    width: auto;
+  }
+}
 /*Style for weiterleitungs page*/
 
 .inhalt-weiterleitung {
