@@ -228,6 +228,21 @@ carousel
   margin-top: 5%;
 }
 
+.Impressum{
+  text-align: left;
+  margin: 20px;
+  margin-left: 100px;
+}
+
+
+#mapid2 {
+  float: right;
+  margin-right: 200px;
+  margin-top: -330px;
+  height: 400px;
+  width: 50%;
+  
+}
 @media screen and (max-device-width:480px) {
   .Yvideo {
     margin-top: 5%;
