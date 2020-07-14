@@ -209,11 +209,19 @@ carousel
 
 .btn-info {
   border-radius: 30px;
-  margin-top: 80%;
-  margin-right: -110%;
-  float: right;
+  width: 400px;
+  align-self: center;
+  margin-right: -60%;
 }
-
+@media screen and (max-width:992px){
+  .btn-info {
+    border-radius: 30px;
+    width: 400px;
+    align-self: center;
+    margin-right: auto;
+    
+  }
+}
 .Yvideo {
   border-radius: 30px;
   border-style: hidden;
@@ -235,6 +243,7 @@ carousel
  
 }
 
+
 #mapid2 {
   
  
@@ -242,7 +251,7 @@ carousel
   width: 800px;
 }
 
-@media(max-width: 768px) {}
+
 
 @media screen and (max-device-width:480px) {
   .Yvideo {
@@ -326,6 +335,9 @@ input[type=submit]:hover {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.pollen-text-überschrift{
+  margin-top: 50px;
+}
 
 .pollen-text-1 {
   margin-top: 20px;
@@ -338,13 +350,25 @@ input[type=submit]:hover {
   margin-top: -20px;
   margin-left: 30%;
   margin-right: 30%;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
 }
 
 @media screen and (max-device-width:480px) {
   .pollenkalender-bild {
     width: auto;
   }
+}
+.Pollenbilder{
+ padding: 100px;
+}
+.Pollenbilder-scale{
+  border-radius: 50% ;
+  width: 400px;
+  height: 400px;
+  margin:20px;
+}
+.popup-text{
+  color: #333;
 }
 
 /*Style for weiterleitungs page*/

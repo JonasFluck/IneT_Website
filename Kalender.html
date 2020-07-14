@@ -1,17 +1,21 @@
 ﻿<!DOCTYPE html>
 <html lang="de">
+
 <head>
-    <title> Kalender</title>
-    <meta charset="utf-8">
+    <title>Pollenradar Kalender</title>
+    <meta charset="utf-8" name="description=" content="Der Kalender dient zur Übersicht des Pollenflugs
+    über das Jahr verteilt enthält Kurzinformationen 
+    zu den jeweiligen Arten">
 
     <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <meta name="WEB" content="width=device-width, initial-scale=1">
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
     <style>
         .carousel-inner img {
             width: 100%;
@@ -58,13 +62,418 @@
         Standort. Zum einen unterscheiden sich die relevanten Pflanzenarten von Region zu Region, zum anderen variieren
         die klimatischen Bedingungen – und damit die Wachstumsphasen der vorkommenden Pflanzen.
     </div>
+    <div class="w3-container">
+
+        <img id="myImg" class="Pollenbilder-scale " src="Pollenbilder/hasel.jpg"
+            onclick="document.getElementById('id01').style.display='block'">
+        <div id="id01" class="w3-modal">
+            <div class="modal-content">
+                <div class="w3-modal-content w3-animate-fade w3-card-4">
+                    <header class="w3-container w3-teal">
+                        <span onclick="document.getElementById('id01').style.display='none'"
+                            class="w3-button w3-display-topright">&times;</span>
+                        <h2>Hasel</h2>
+                    </header>
+                    <div class="w3-container">
+                        <div class="popup-text">
+                            <ul>
+                                <li>Allergiestufe: stark</li>
+                                <li>lokal große Pollenmenge</li>
+                                <li>erste Pollen im Jahr</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <img class="Pollenbilder-scale" src="Pollenbilder/erle.jpg"
+            onclick="document.getElementById('id02').style.display='block'">
+        <div id="id02" class="w3-modal">
+            <div class="modal-content">
+                <div class="w3-modal-content w3-animate-fade w3-card-4">
+                    <header class="w3-container w3-teal">
+                        <span onclick="document.getElementById('id02').style.display='none'"
+                            class="w3-button w3-display-topright">&times;</span>
+                        <h2>Erle</h2>
+                    </header>
+                    <div class="w3-container">
+                        <div class="popup-text">
+                            <ul>
+
+                                <li>Allergiestufe: stark</li>
+                                <li>lokal große Pollenmenge</li>
+                                <li>einer der ersten Pollen im Jahr</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <img class="Pollenbilder-scale" src="Pollenbilder/Pappel.jpg"
+            onclick="document.getElementById('id03').style.display='block'">
+        <div id="id03" class="w3-modal">
+            <div class="modal-content">
+                <div class="w3-modal-content w3-animate-fade w3-card-4">
+                    <header class="w3-container w3-teal">
+                        <span onclick="document.getElementById('id03').style.display='none'"
+                            class="w3-button w3-display-topright">&times;</span>
+                        <h2>Pappel</h2>
+                    </header>
+                    <div class="w3-container">
+                        <div class="popup-text">
+                            <ul>
+
+                                <li>Allergiestufe: schwach</li>
+                                <li>lokal große Pollenmenge möglich</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <img class="Pollenbilder-scale" src="Pollenbilder/weide.jpg"
+            onclick="document.getElementById('id04').style.display='block'">
+        <div id="id04" class="w3-modal">
+            <div class="modal-content">
+                <div class="w3-modal-content w3-animate-fade w3-card-4">
+                    <header class="w3-container w3-teal">
+                        <span onclick="document.getElementById('id04').style.display='none'"
+                            class="w3-button w3-display-topright">&times;</span>
+                        <h2>Weide</h2>
+                    </header>
+                    <div class="w3-container">
+                        <div class="popup-text">
+                            <ul>
+
+                                <li>Allergiestufe: schwach,selten</li>
+                                <li>nur wenig Pollen in der Luft</li>
+                                <li>lokal höhere Pollenmengen möglich</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <img class="Pollenbilder-scale" src="Pollenbilder/ulme.jpg"
+            onclick="document.getElementById('id05').style.display='block'">
+        <div id="id05" class="w3-modal">
+            <div class="modal-content">
+                <div class="w3-modal-content w3-animate-fade w3-card-4">
+                    <header class="w3-container w3-teal">
+                        <span oncclick="document.getElementById('id05').style.display='none'"
+                            class="w3-button w3-display-topright">&times;</span>
+                        <h2>Ulme</h2>
+                    </header>
+                    <div class="w3-container">
+                        <div class="popup-text">
+                            <ul>
+
+                                <li>Allergiestufe: mittel</li>
+                                <li>lokal mittlere Pollenmenge</li>
+                                <li>erscheinen im Frühling</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <img class="Pollenbilder-scale" src="Pollenbilder/birke.jpg"
+            onclick="document.getElementById('id06').style.display='block'">
+        <div id="id06" class="w3-modal">
+            <div class="modal-content">
+                <div class="w3-modal-content w3-animate-fade w3-card-4">
+                    <header class="w3-container w3-teal">
+                        <span onclick="document.getElementById('id06').style.display='none'"
+                            class="w3-button w3-display-topright">&times;</span>
+                        <h2>Birke</h2>
+                    </header>
+                    <div class="w3-container">
+                        <div class="popup-text">
+                            <ul>
+
+                                <li>Allergiestufe: sehr stark</li>
+                                <li>wichtigstes Baumpollenallergen</li>
+                                <li>sehr große Pollenproduktion</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <img class="Pollenbilder-scale" src="Pollenbilder/buche.jpg"
+            onclick="document.getElementById('id07').style.display='block'">
+        <div id="id07" class="w3-modal">
+            <div class="modal-content">
+                <div class="w3-modal-content w3-animate-fade w3-card-4">
+                    <header class="w3-container w3-teal">
+                        <span onclick="document.getElementById('id07').style.display='none'"
+                            class="w3-button w3-display-topright">&times;</span>
+                        <h2>Buche</h2>
+                    </header>
+                    <div class="w3-container">
+                        <div class="popup-text">
+                            <ul>
+
+                                <li>Allergiestufe: mittel</li>
+                                <li>Pollenmenge meist gering</li>
+                                <li>starker Pollenflug nur 5-10 Jahre</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <img class="Pollenbilder-scale" src="Pollenbilder/ampfer.jpg"
+            onclick="document.getElementById('id08').style.display='block'">
+        <div id="id08" class="w3-modal">
+            <div class="modal-content">
+                <div class="w3-modal-content w3-animate-fade w3-card-4">
+                    <header class="w3-container w3-teal">
+                        <span onclick="document.getElementById('id08').style.display='none'"
+                            class="w3-button w3-display-topright">&times;</span>
+                        <h2>Ampfer</h2>
+                    </header>
+                    <div class="w3-container">
+                        <div class="popup-text">
+                            <ul>
+
+                                <li>Allergiestufe: mittel</li>
+                                <li>lange Blütezeit ohne Maximum</li>
+                                <li>Pollengehalt in der Luft geringer</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <img class="Pollenbilder-scale" src="Pollenbilder/roggen.jpg"
+            onclick="document.getElementById('id09').style.display='block'">
+        <div id="id09" class="w3-modal">
+            <div class="modal-content">
+                <div class="w3-modal-content w3-animate-fade w3-card-4">
+                    <header class="w3-container w3-teal">
+                        <span onclick="document.getElementById('id09').style.display='none'"
+                            class="w3-button w3-display-topright">&times;</span>
+                        <h2>Roggen</h2>
+                    </header>
+                    <div class="w3-container">
+                        <div class="popup-text">
+                            <ul>
+
+                                <li>Allergiestufe: sehr stark</li>
+                                <li>Pflanzenfamilie der Gräser</li>
+                                <li>Kreuzreaktionen möglich</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <img class="Pollenbilder-scale" src="Pollenbilder/gräßer.jpg"
+            onclick="document.getElementById('id010').style.display='block'">
+        <div id="id010" class="w3-modal">
+            <div class="modal-content">
+                <div class="w3-modal-content w3-animate-fade w3-card-4">
+                    <header class="w3-container w3-teal">
+                        <span onclick="document.getElementById('id010').style.display='none'"
+                            class="w3-button w3-display-topright">&times;</span>
+                        <h2>Gräser</h2>
+                    </header>
+                    <div class="w3-container">
+                        <div class="popup-text">
+                            <ul>
+
+                                <li>Allergiestufe: sehr stark</li>
+                                <li>eines der wichtigsten Pollenallergen</li>
+                                <li>Kreuzreaktionen möglich</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <img class="Pollenbilder-scale" src="Pollenbilder/eiche.jpg"
+            onclick="document.getElementById('id011').style.display='block'">
+        <div id="id011" class="w3-modal">
+            <div class="modal-content">
+                <div class="w3-modal-content w3-animate-fade w3-card-4">
+                    <header class="w3-container w3-teal">
+                        <span onclick="document.getElementById('id011').style.display='none'"
+                            class="w3-button w3-display-topright">&times;</span>
+                        <h2>Eiche</h2>
+                    </header>
+                    <div class="w3-container">
+                        <div class="popup-text">
+                            <ul>
+
+                                <li>Allergiestufe: mittel</li>
+                                <li>recht große Pollenmenge</li>
+                                <li>zwische Birken- und Gräserblüte</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <img class="Pollenbilder-scale" src="Pollenbilder/wegerich.jpg"
+            onclick="document.getElementById('id012').style.display='block'">
+        <div id="id012" class="w3-modal">
+            <div class="modal-content">
+                <div class="w3-modal-content w3-animate-fade w3-card-4">
+                    <header class="w3-container w3-teal">
+                        <span onclick="document.getElementById('id012').style.display='none'"
+                            class="w3-button w3-display-topright">&times;</span>
+                        <h2>Wegerich</h2>
+                    </header>
+                    <div class="w3-container">
+                        <div class="popup-text">
+                            <ul>
+
+                                <li>Allergiestufe: mittel</li>
+                                <li>lange Blütezeit ohne Maximum</li>
+                                <li>niedriger Pollengehalt in der Luft</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <img class="Pollenbilder-scale" src="Pollenbilder/beifuß.jpg"
+            onclick="document.getElementById('id013').style.display='block'">
+        <div id="id013" class="w3-modal">
+            <div class="modal-content">
+                <div class="w3-modal-content w3-animate-fade w3-card-4">
+                    <header class="w3-container w3-teal">
+                        <span onclick="document.getElementById('id013').style.display='none'"
+                            class="w3-button w3-display-topright">&times;</span>
+                        <h2>Beifuss</h2>
+                    </header>
+                    <div class="w3-container">
+                        <div class="popup-text">
+                            <ul>
+
+                                <li>Allergiestufe: stark</li>
+                                <li>wichtigstes Kräuterallergen</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <img class="Pollenbilder-scale" src="Pollenbilder/ambrosia.jpg"
+            onclick="document.getElementById('id014').style.display='block'">
+        <div id="id014" class="w3-modal">
+            <div class="modal-content">
+                <div class="w3-modal-content w3-animate-fade w3-card-4">
+                    <header class="w3-container w3-teal">
+                        <span onclick="document.getElementById('id014').style.display='none'"
+                            class="w3-button w3-display-topright">&times;</span>
+                        <h2>Ambrosia</h2>
+                    </header>
+                    <div class="w3-container">
+                        <div class="popup-text">
+                            <ul>
+
+                                <li>Allergiestufe: sehr stark</li>
+                                <li>sehr hohe Allergenität</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Get the modal
+        var modal1 = document.getElementById('id01');
+        var modal2 = document.getElementById('id02');
+        var modal3 = document.getElementById('id03');
+        var modal4 = document.getElementById('id04');
+        var modal5 = document.getElementById('id05');
+        var modal6 = document.getElementById('id06');
+        var modal7 = document.getElementById('id07');
+        var modal8 = document.getElementById('id08');
+        var modal9 = document.getElementById('id09');
+        var modal10 = document.getElementById('id010');
+        var modal11 = document.getElementById('id011');
+        var modal12 = document.getElementById('id012');
+        var modal13 = document.getElementById('id013');
+        var modal14 = document.getElementById('id014');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal1) {
+                modal1.style.display = "none";
+            }
+            else if (event.target == modal2) {
+                modal2.style.display = "none";
+            }
+            else if (event.target == modal3) {
+                modal3.style.display = "none";
+            }
+            else if (event.target == modal4) {
+                modal4.style.display = "none";
+            }
+            else if (event.target == modal5) {
+                modal5.style.display = "none";
+            }
+            else if (event.target == modal6) {
+                modal6.style.display = "none";
+            }
+            else if (event.target == modal7) {
+                modal7.style.display = "none";
+            }
+            else if (event.target == modal8) {
+                modal8.style.display = "none";
+            }
+            else if (event.target == modal9) {
+                modal9.style.display = "none";
+            }
+            else if (event.target == modal10) {
+                modal10.style.display = "none";
+            }
+            else if (event.target == modal11) {
+                modal11.style.display = "none";
+            }
+            else if (event.target == modal12) {
+                modal12.style.display = "none";
+            }
+            else if (event.target == modal13) {
+                modal13.style.display = "none";
+            }
+            else if (event.target == modal14) {
+                modal14.style.display = "none";
+            }
+        }
 
 
 
 
+        //modal2^modal3^modal4^modal5^modal6^modal7^modal8^modal9^modal10^modal11^modal12^modal13^modal14
+//modal1&&modal2&&modal3&&modal4&&modal5&&modal6&&modal7&&modal8&&modal9&&modal10&&modal11&&modal12&&modal13&&
+
+
+    </script>
 
 
 
 
 </body>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 </html>
