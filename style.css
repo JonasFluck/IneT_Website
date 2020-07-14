@@ -253,7 +253,7 @@ carousel
 
 
 
-@media screen and (max-device-width:480px) {
+@media screen and (device-width:480px) {
   .Yvideo {
     margin-top: 5%;
     border-radius: 30px;
@@ -357,7 +357,7 @@ input[type=submit]:hover {
   margin-bottom: 10%;
 }
 
-@media screen and (max-device-width:480px) {
+@media screen and (device-width:480px) {
   .pollenkalender-bild {
     width: auto;
   }
