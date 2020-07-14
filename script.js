@@ -1,4 +1,8 @@
 // JavaScript source code
+
+//Some Ideas for JS that arent implemeted in the final version of the website
+
+
 function popUp() {
     // Get the modal
     var modalpopUP = document.getElementById("unserText");
