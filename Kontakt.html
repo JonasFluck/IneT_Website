@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-  
+
 
 
 </head>
@@ -31,41 +31,42 @@
             <i class="fa fa-bars"></i>
         </a>
     </div>
-    
-         <form action="POST" data-netlify="true">
+
+    <form action="POST" data-netlify="true">
         <div class="abstand">
             <h1>Haben Sie Fragen ?</h1>
             <div class="container">
-                
 
-                    <label for="fname">Vorname</label>
-                    <input type="text" id="fname" name="Vorname" placeholder="Vorname..">
 
-                    <label for="lname">Nachname</label>
-                    <input type="text" id="lname" name="Nachname" placeholder="Nachname..">
+                <label for="fname">Vorname</label>
+                <input type="text" id="fname" name="Vorname" placeholder="Vorname..">
 
-                    <label for="country">Land</label>
-                    <select id="country" name="Land">
-                        <option value="australia">Deutschland</option>
-                        <option value="canada">Canada</option>
-                        <option value="usa">USA</option>
-                    </select>
+                <label for="lname">Nachname</label>
+                <input type="text" id="lname" name="Nachname" placeholder="Nachname..">
 
-                    <label for="subject">Ergänzungen</label>
-                    <textarea id="subject" name="subject" placeholder="Schreiben Sie uns doch etwas.." style="height:200px"></textarea>
+                <label for="country">Land</label>
+                <select id="country" name="Land">
+                    <option value="australia">Deutschland</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
 
-                    <div class="field">
-            <div data-netlify-recaptcha="true">
+                <label for="subject">Ergänzungen</label>
+                <textarea id="subject" name="subject" placeholder="Schreiben Sie uns doch etwas.."
+                    style="height:200px"></textarea>
+
+                <div class="field">
+                    <div data-netlify-recaptcha="true">
+
+                    </div>
+
+                </div>
+                <input type="submit" class="btn btn-outline-success" data-href="weiterleitung.html"></input>
 
             </div>
+        </div>
+    </form>
 
-        </div>
-                    <input type="submit" class="btn btn-outline-success" href="weiterleitung.html"></input>
-            
-            </div>
-        </div>
-         </form>
-       
     <!--  <?php
         if(issert($_POST["Abschicken"])){
         mail("Julius.Braitinger@googlemail.com","Kontaktformular", 'Vorname:'.$_POST["Vorname"].'Nachname: '.$_POST["Nachname"], 'Ergänzung: '.$_POST["subject"]);
