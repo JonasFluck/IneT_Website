@@ -329,6 +329,10 @@ input[type=submit]:hover {
 
 /*Style for Kalenderpage*/
 
+.pollenkalender-bild{
+  width: 75%;
+  height: auto;
+}
 .pollenkalender {
   width: 1500px;
   height: 800px;
