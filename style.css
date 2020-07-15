@@ -244,7 +244,7 @@ carousel
 }
 
 @media only screen and (max-device-width: 600px) {
-  .carousel-item, .btn, .Impressum, .Impressum-header {
+  .carousel-item, .btn, .Impressum, .Impressum-header, .Navbar-Text {
     font-size: 4vw;
   }
   .Yvideo {
