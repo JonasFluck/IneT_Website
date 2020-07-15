@@ -236,6 +236,11 @@ carousel
   text-align: left;
   margin: 20px;
   margin-left: 0px;
+  
+}
+
+.Impressum-header{
+  font-size: 30px;
 }
 
 #mapid2 {
@@ -364,6 +369,15 @@ input[type=submit]:hover {
 
 .popup-text {
   color: #333;
+}
+.ü-modal{
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
 }
 
 @media only screen and (max-device-width: 600px) {
