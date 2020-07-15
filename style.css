@@ -243,9 +243,9 @@ carousel
   width: 800px;
 }
 
-@media screen and (device-width:480px) {
-  .body {
-    font-size: 300px;
+@media only screen and (max-device-width: 600px) {
+  .carousel-item, .btn, .Impressum, .Impressum-header {
+    font-size: 4vw;
   }
   .Yvideo {
     margin-top: 5%;
@@ -257,11 +257,11 @@ carousel
     margin-bottom: 30px;
   }
   .btn-info {
-    visibility: hidden;
     border-radius: 30px;
   }
   .Infotext {
     margin-top: 30px;
+    font-size: 4vw;
   }
 }
 
@@ -351,12 +351,6 @@ input[type=submit]:hover {
   margin-bottom: 10%;
 }
 
-@media screen and (device-width:480px) {
-  .pollenkalender-bild {
-    width: auto;
-  }
-}
-
 .Pollenbilder {
   padding: 100px;
 }
@@ -371,6 +365,27 @@ input[type=submit]:hover {
 .popup-text {
   color: #333;
 }
+
+@media only screen and (max-device-width: 600px) {
+  .w3-animate-fade, .ü-modal{
+    font-size: 50px;
+  }
+  .responsive {
+    text-align: center;
+    font-size: 6vw;
+  }
+  .pollen-text-1, .pollen-text-2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 4vw;
+  }
+
+  .pollenkalender-bild {
+    width: 100%;
+  }
+}
+
+
 
 /*Style for weiterleitungs page*/
 
